@@ -1,0 +1,7 @@
+name: World
+
+endpoints:
+  health:
+    sensitive: false
+  shutdown:
+    enabled: true
