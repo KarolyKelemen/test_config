@@ -1,8 +1,7 @@
 server:
   port: ${PORT:8100}
-
-name: World
-
+prop:
+  name: World
 endpoints:
   health:
     sensitive: false
