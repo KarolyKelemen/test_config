@@ -7,11 +7,11 @@ zuul:
   routes:
     accounts-service:
       path: /accounts/**
-      serviceId: accounts-service
+      serviceId: accounts
       stripPrefix: true
     profiles-service:
       path: /profiles/**
-      serviceId: profiles-service
+      serviceId: profiles
       stripPrefix: true
 # end::zuul[]
 
